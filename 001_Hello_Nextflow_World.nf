@@ -22,7 +22,7 @@ stdout result
 
   script:
   """
-  cat $x | tr '[a-z]' '[A-Z]' | rev > /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/000.output.txt
+  cat $x | tr '[a-z]' '[A-Z]' | rev >> /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/000.output.txt
 
   """
 
