@@ -1,0 +1,32 @@
+Oct-02 19:50:17.411 [main] DEBUG nextflow.cli.Launcher - $> nextflow run 001_Hello_Nextflow_World --str 'Hola Mundo!'
+Oct-02 19:50:17.582 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
+Oct-02 19:50:17.599 [main] INFO  nextflow.cli.CmdRun - Launching `001_Hello_Nextflow_World` [fervent_volhard] - revision: 603d5f2a6b
+Oct-02 19:50:17.714 [main] DEBUG nextflow.Session - Session uuid: b89a4445-346d-4af7-8310-282deb31c21c
+Oct-02 19:50:17.714 [main] DEBUG nextflow.Session - Run name: fervent_volhard
+Oct-02 19:50:17.717 [main] DEBUG nextflow.Session - Executor pool size: 8
+Oct-02 19:50:17.797 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.01.0 build 5050
+  Modified: 22-01-2019 11:19 UTC (06:19 EDT)
+  System: Mac OS X 10.15.6
+  Runtime: Groovy 2.5.5 on OpenJDK 64-Bit Server VM 10.0.2+13
+  Encoding: UTF-8 (UTF-8)
+  Process: 42436@Alfredos-MacBook-Pro.local [127.0.0.1]
+  CPUs: 8 - Mem: 16 GB (645.2 MB) - Swap: 6 GB (1.1 GB)
+Oct-02 19:50:17.821 [main] DEBUG nextflow.Session - Work-dir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work [Mac OS X]
+Oct-02 19:50:17.822 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/bin
+Oct-02 19:50:18.050 [main] DEBUG nextflow.Session - Session start invoked
+Oct-02 19:50:18.063 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Oct-02 19:50:18.064 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Oct-02 19:50:18.376 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-02 19:50:18.382 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: s for class: _nf_script_3fa9cce7
+Oct-02 19:50:18.541 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: No such property: s for class: _nf_script_3fa9cce7
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:67)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:309)
+	at _nf_script_3fa9cce7.run(_nf_script_3fa9cce7:1)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:382)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:170)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:240)
+	at nextflow.cli.Launcher.run(Launcher.groovy:445)
+	at nextflow.cli.Launcher.main(Launcher.groovy:622)

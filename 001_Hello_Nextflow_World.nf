@@ -18,12 +18,14 @@ process convertToUpper {
   file x from letters.flatten()
 
   output:
-  stdout result
+stdout result
 
   script:
   """
-  rev $x
+  cat $x | tr '[a-z]' '[A-Z]' | rev > /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/000.output.txt
+
   """
+
 }
 
 result.view { it.trim() }

@@ -1,0 +1,10 @@
+2020-10-02 19:49:03	-	jovial_pasteur	-	603d5f2a6bf731880b016bde76301aed	d91fa0c9-c304-4322-ab39-f673fe47f776	nextflow run 001_Hello_Nextflow_World --str 'Hola Mundo!'
+2020-10-02 19:50:17	-	fervent_volhard	-	603d5f2a6bf731880b016bde76301aed	b89a4445-346d-4af7-8310-282deb31c21c	nextflow run 001_Hello_Nextflow_World --str 'Hola Mundo!'
+2020-10-02 19:52:40	1.7s	kickass_panini	OK	a07523dc72a6a40f7fe2e5794f382ed6	92fe5f9f-1f7e-49f6-bb78-92d5d014b944	nextflow run 001_Hello_Nextflow_World.nf --str 'Hola Mundo!'
+2020-10-02 19:58:27	1.8s	astonishing_hypatia	OK	8d44e760ad0955d8bcf7656df4179af5	8edd8db3-c572-49bd-9deb-a97ac866ea53	nextflow run 001_Hello_Nextflow_World.nf --str 'Hola Mundo!'
+2020-10-02 19:59:01	2.2s	silly_gutenberg	OK	c0213bc007bf90dc9cb40d459fc50781	e3c577a6-3444-4ed1-88dd-59611677e902	nextflow run 001_Hello_Nextflow_World.nf --str 'Hola Mundo!'
+2020-10-02 20:06:01	1.8s	sick_pike	OK	a25099b403f30a02c70bbe83d8df9591	2c53b301-81af-4525-9662-0a03c244ba50	nextflow run 001_Hello_Nextflow_World.nf --str 'Hola Mundo!'
+2020-10-02 20:07:46	2.4s	big_noether	OK	e86c7653b8dffb03a5a092fb591b7678	e40b98f4-baa5-46c1-8cd9-154a562265c3	nextflow run 001_Hello_Nextflow_World.nf
+2020-10-02 20:12:46	-	big_caravaggio	-	cf1115af15506230ec4069a92e7c36d6	aa8d8975-4a69-4839-b575-d874a45f4d9f	nextflow run 001_Hello_Nextflow_World.nf
+2020-10-02 20:13:03	2.1s	compassionate_volhard	OK	5a71d517f47eaa6d7e9622ef5e151ed7	cc6ed431-210a-4b6d-ad1b-3a31f0c07c4e	nextflow run 001_Hello_Nextflow_World.nf
+2020-10-02 20:16:33	1.8s	prickly_celsius	OK	2c7b19d5725c478330b687ced32faeca	dd8f2a75-da97-473d-a175-2eb86ab2651a	nextflow run 001_Hello_Nextflow_World.nf
