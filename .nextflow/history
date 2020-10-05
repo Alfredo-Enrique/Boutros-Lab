@@ -57,3 +57,4 @@
 2020-10-04 02:30:56	-	trusting_wiles	-	801110d65cb3905411283c16d811784e	b2d7cf97-4e87-4de0-b6d4-444f31ad8196	nextflow run 003_Hello_Nextflow_World.nf
 2020-10-04 02:32:47	900ms	distraught_chandrasekhar	OK	c4b5adb81fd24ec6b99bec17c1902987	79432ccf-ad9f-4df9-8c59-c486d162c026	nextflow run 003_Hello_Nextflow_World.nf
 2020-10-05 01:05:01	1.1s	zen_joliot	OK	4479d983a65a6962dcb3e124f466cea2	53b3c48c-3832-4a3c-ac76-8463f53ac71a	nextflow run 003_Hello_Nextflow_World.nf
+2020-10-05 01:08:37	943ms	serene_pesquet	OK	69cfdea49eeeef25f6e381ef317021c0	fa2d24a5-ea8c-441a-9274-00aab87ac1ec	nextflow run 003_Hello_Nextflow_World.nf

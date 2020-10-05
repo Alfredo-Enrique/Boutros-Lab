@@ -40,6 +40,8 @@ println baseDir
 
 println "-------"
 
-file('/Users/homefolder/Documents/GitHub/NEXTFLOW_Training/000.output.txt')
-    .readLines()
-    .each { println it }
+myFile = file('/Users/homefolder/Documents/GitHub/NEXTFLOW_Training/000.output.txt')
+count = 0
+myFile.eachLine {  str ->
+        println "line ${count++}: $str"
+    }
