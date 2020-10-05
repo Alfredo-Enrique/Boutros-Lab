@@ -1,94 +1,27 @@
-Oct-04 01:46:50.796 [main] DEBUG nextflow.cli.Launcher - $> nextflow run 003_Hello_Nextflow_World.nf
-Oct-04 01:46:50.985 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
-Oct-04 01:46:51.005 [main] INFO  nextflow.cli.CmdRun - Launching `003_Hello_Nextflow_World.nf` [gigantic_heisenberg] - revision: fdb0e8d295
-Oct-04 01:46:51.143 [main] DEBUG nextflow.Session - Session uuid: 05897877-0260-4c22-9e4e-3994f22d692a
-Oct-04 01:46:51.143 [main] DEBUG nextflow.Session - Run name: gigantic_heisenberg
-Oct-04 01:46:51.146 [main] DEBUG nextflow.Session - Executor pool size: 8
-Oct-04 01:46:51.471 [main] DEBUG nextflow.cli.CmdRun - 
+Oct-04 02:23:19.653 [main] DEBUG nextflow.cli.Launcher - $> nextflow run 003_Hello_Nextflow_World.nf
+Oct-04 02:23:19.840 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
+Oct-04 02:23:19.859 [main] INFO  nextflow.cli.CmdRun - Launching `003_Hello_Nextflow_World.nf` [ridiculous_lorenz] - revision: dc5e3664c6
+Oct-04 02:23:19.989 [main] DEBUG nextflow.Session - Session uuid: 7b5577da-768f-4c1a-9fe7-8077a7eec0b2
+Oct-04 02:23:19.989 [main] DEBUG nextflow.Session - Run name: ridiculous_lorenz
+Oct-04 02:23:19.992 [main] DEBUG nextflow.Session - Executor pool size: 8
+Oct-04 02:23:20.061 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 19.01.0 build 5050
   Modified: 22-01-2019 11:19 UTC (06:19 EDT)
   System: Mac OS X 10.15.6
   Runtime: Groovy 2.5.5 on OpenJDK 64-Bit Server VM 10.0.2+13
   Encoding: UTF-8 (UTF-8)
-  Process: 63891@Alfredos-MacBook-Pro.local [127.0.0.1]
-  CPUs: 8 - Mem: 16 GB (64.9 MB) - Swap: 8 GB (549.5 MB)
-Oct-04 01:46:51.494 [main] DEBUG nextflow.Session - Work-dir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work [Mac OS X]
-Oct-04 01:46:51.494 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/bin
-Oct-04 01:46:51.774 [main] DEBUG nextflow.Session - Session start invoked
-Oct-04 01:46:51.786 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Oct-04 01:46:51.787 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Oct-04 01:46:52.186 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Oct-04 01:46:52.289 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Oct-04 01:46:52.290 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Oct-04 01:46:52.297 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Oct-04 01:46:52.301 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
-Oct-04 01:46:52.306 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Oct-04 01:46:52.311 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
-Oct-04 01:46:52.311 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Oct-04 01:46:52.314 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
-Oct-04 01:46:52.411 [main] DEBUG nextflow.Session - >>> barrier register (process: splitLetters)
-Oct-04 01:46:52.417 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > splitLetters -- maxForks: 8
-Oct-04 01:46:52.570 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Oct-04 01:46:52.571 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Oct-04 01:46:52.572 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Oct-04 01:46:52.574 [main] DEBUG nextflow.Session - >>> barrier register (process: convertToUpper)
-Oct-04 01:46:52.574 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > convertToUpper -- maxForks: 8
-Oct-04 01:46:52.583 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Oct-04 01:46:52.583 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Oct-04 01:46:52.583 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Oct-04 01:46:52.584 [main] DEBUG nextflow.Session - >>> barrier register (process: Reverse)
-Oct-04 01:46:52.585 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > Reverse -- maxForks: 8
-Oct-04 01:46:52.603 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
-Oct-04 01:46:52.604 [main] DEBUG nextflow.Session - Session await
-Oct-04 01:46:52.749 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Oct-04 01:46:52.757 [Task submitter] INFO  nextflow.Session - [a5/f5abdb] Submitted process > splitLetters
-Oct-04 01:46:52.934 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: splitLetters; status: COMPLETED; exit: 0; error: -; workDir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/a5/f5abdb06985d87d071f4059775db11]
-Oct-04 01:46:52.991 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: splitLetters)
-Oct-04 01:46:53.029 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Oct-04 01:46:53.029 [Task submitter] INFO  nextflow.Session - [84/97ddea] Submitted process > convertToUpper (1)
-Oct-04 01:46:53.035 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Oct-04 01:46:53.035 [Task submitter] INFO  nextflow.Session - [2f/92e010] Submitted process > convertToUpper (2)
-Oct-04 01:46:53.177 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: convertToUpper (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/84/97ddeaf2a87d45b490fa98300216af]
-Oct-04 01:46:53.185 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: convertToUpper (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/2f/92e0109bd646c2dcb3d9d206da0376]
-Oct-04 01:46:53.188 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: convertToUpper)
-Oct-04 01:46:53.189 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Oct-04 01:46:53.190 [Task submitter] INFO  nextflow.Session - [b4/168e3f] Submitted process > Reverse (1)
-Oct-04 01:46:53.195 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Oct-04 01:46:53.195 [Task submitter] INFO  nextflow.Session - [fc/a23337] Submitted process > Reverse (2)
-Oct-04 01:46:53.316 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: Reverse (1); status: COMPLETED; exit: 127; error: -; workDir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/b4/168e3f701ed49c544d4643c717e385]
-Oct-04 01:46:53.353 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'Reverse (1)'
-
-Caused by:
-  Process `Reverse (1)` terminated with an error exit status (127)
-
-Command executed:
-
-  a = 1
-  cat chunk2_
-  println a
-
-Command exit status:
-  127
-
-Command output:
-  (empty)
-
-Command error:
-  .command.sh: line 2: a: command not found
-
-Work dir:
-  /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/b4/168e3f701ed49c544d4643c717e385
-
-Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
-Oct-04 01:46:53.357 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `Reverse (1)` terminated with an error exit status (127)
-Oct-04 01:46:53.380 [Task monitor] DEBUG nextflow.Session - The following nodes are still active:
-  [operator] view
-
-Oct-04 01:46:53.383 [main] DEBUG nextflow.Session - Session await > all process finished
-Oct-04 01:46:53.383 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Oct-04 01:46:53.385 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: Reverse (2); status: COMPLETED; exit: 127; error: -; workDir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work/fc/a233372b0372d3801ce49b2f2d7eec]
-Oct-04 01:46:53.386 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: Reverse)
-Oct-04 01:46:53.387 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
-Oct-04 01:46:53.390 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=3; failedCount=2; ignoredCount=0; cachedCount=0; succeedDuration=172ms; failedDuration=140ms; cachedDuration=0ms]
-Oct-04 01:46:53.401 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
-Oct-04 01:46:53.431 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 66207@Alfredos-MacBook-Pro.local [127.0.0.1]
+  CPUs: 8 - Mem: 16 GB (384.6 MB) - Swap: 9 GB (1.1 GB)
+Oct-04 02:23:20.087 [main] DEBUG nextflow.Session - Work-dir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work [Mac OS X]
+Oct-04 02:23:20.087 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/bin
+Oct-04 02:23:20.310 [main] DEBUG nextflow.Session - Session start invoked
+Oct-04 02:23:20.325 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Oct-04 02:23:20.326 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Oct-04 02:23:20.660 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-04 02:23:20.669 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Oct-04 02:23:20.669 [main] DEBUG nextflow.Session - Session await
+Oct-04 02:23:20.670 [main] DEBUG nextflow.Session - Session await > all process finished
+Oct-04 02:23:20.670 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-04 02:23:20.675 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=0; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms]
+Oct-04 02:23:20.706 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Oct-04 02:23:20.736 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

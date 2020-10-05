@@ -1,34 +1,30 @@
-Oct-04 01:53:57.416 [main] DEBUG nextflow.cli.Launcher - $> nextflow run 003_Hello_Nextflow_World.nf
-Oct-04 01:53:57.600 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
-Oct-04 01:53:57.618 [main] INFO  nextflow.cli.CmdRun - Launching `003_Hello_Nextflow_World.nf` [sleepy_jepsen] - revision: b648f0ee0c
-Oct-04 01:53:57.746 [main] DEBUG nextflow.Session - Session uuid: bd80cb6d-0f86-401f-aea9-faba726fd674
-Oct-04 01:53:57.747 [main] DEBUG nextflow.Session - Run name: sleepy_jepsen
-Oct-04 01:53:57.749 [main] DEBUG nextflow.Session - Executor pool size: 8
-Oct-04 01:53:58.007 [main] DEBUG nextflow.cli.CmdRun - 
+Oct-04 02:30:56.064 [main] DEBUG nextflow.cli.Launcher - $> nextflow run 003_Hello_Nextflow_World.nf
+Oct-04 02:30:56.277 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
+Oct-04 02:30:56.300 [main] INFO  nextflow.cli.CmdRun - Launching `003_Hello_Nextflow_World.nf` [trusting_wiles] - revision: 801110d65c
+Oct-04 02:30:56.427 [main] DEBUG nextflow.Session - Session uuid: b2d7cf97-4e87-4de0-b6d4-444f31ad8196
+Oct-04 02:30:56.427 [main] DEBUG nextflow.Session - Run name: trusting_wiles
+Oct-04 02:30:56.429 [main] DEBUG nextflow.Session - Executor pool size: 8
+Oct-04 02:30:56.494 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 19.01.0 build 5050
   Modified: 22-01-2019 11:19 UTC (06:19 EDT)
   System: Mac OS X 10.15.6
   Runtime: Groovy 2.5.5 on OpenJDK 64-Bit Server VM 10.0.2+13
   Encoding: UTF-8 (UTF-8)
-  Process: 65032@Alfredos-MacBook-Pro.local [127.0.0.1]
-  CPUs: 8 - Mem: 16 GB (388.3 MB) - Swap: 8 GB (558.5 MB)
-Oct-04 01:53:58.031 [main] DEBUG nextflow.Session - Work-dir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work [Mac OS X]
-Oct-04 01:53:58.032 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/bin
-Oct-04 01:53:58.252 [main] DEBUG nextflow.Session - Session start invoked
-Oct-04 01:53:58.260 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Oct-04 01:53:58.261 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Oct-04 01:53:58.613 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Oct-04 01:53:58.621 [main] DEBUG nextflow.Session - Session aborted -- Cause: Cannot invoke method view() on null object
-Oct-04 01:53:58.783 [main] ERROR nextflow.cli.Launcher - @unknown
-java.lang.NullPointerException: Cannot invoke method view() on null object
-	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:47)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:34)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
-	at _nf_script_aa9c69be.run(_nf_script_aa9c69be:8)
+  Process: 66666@Alfredos-MacBook-Pro.local [127.0.0.1]
+  CPUs: 8 - Mem: 16 GB (156.8 MB) - Swap: 9 GB (1.4 GB)
+Oct-04 02:30:56.514 [main] DEBUG nextflow.Session - Work-dir: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/work [Mac OS X]
+Oct-04 02:30:56.514 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/homefolder/Documents/GitHub/NEXTFLOW_Training/bin
+Oct-04 02:30:56.752 [main] DEBUG nextflow.Session - Session start invoked
+Oct-04 02:30:56.763 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Oct-04 02:30:56.765 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Oct-04 02:30:57.105 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-04 02:30:57.116 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: input_query for class: _nf_script_f23b4cb9
+Oct-04 02:30:57.254 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: No such property: input_query for class: _nf_script_f23b4cb9
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:67)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:309)
+	at _nf_script_f23b4cb9.run(_nf_script_f23b4cb9:39)
 	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:382)
 	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:170)
 	at nextflow.cli.CmdRun.run(CmdRun.groovy:240)
